@@ -1,0 +1,20 @@
+<!DOCTYPE HTML> 
+<html> 
+<head> 
+  <title>Пример 17 с массивами</title> 
+</head> 
+<body> 
+    <script type="text/javascript"> 
+let a = prompt ('Введите число', 1);
+function fib(a) {
+    let num;
+    if (a >= 2) {
+        num = fib(a-1) + fib(a-2);
+    } else {
+        num = a
+    }
+    return num;
+}
+console.log (`${fib(a)}`);
+    </script> </body> 
+</html> 

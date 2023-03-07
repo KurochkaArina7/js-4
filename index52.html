@@ -1,0 +1,15 @@
+<!DOCTYPE HTML> 
+<html> 
+<head> 
+  <title>Пример 12 с массивами</title> 
+</head> 
+<body> 
+<script type="text/javascript"> 
+  let arr = ['a', 'b', 'c', 'b', 'a']; 
+  a = arr.filter(function(item, pos, self) {
+    return self.indexOf(item) === pos;
+  })
+  console.log(a);
+  </script> 
+</body> 
+</html>
